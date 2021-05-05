@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="5dp"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="Skin Disease Detection"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/iv"
+
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ul"/>
+
+    <TextView
+        android:id="@+id/searchBT"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="Doctor"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/profileBT"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="Test"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/settingsBT"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="Settings"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/exitBT"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_purple"
+        android:text="Logout"
+        android:textAlignment="center"
+        />
+</LinearLayout>
